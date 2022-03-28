@@ -1,0 +1,9 @@
+- fairseq/tasks/span_bert.py: Main task file which also contains the all the task-specific options.
+
+- fairseq/data/no_nsp_span_bert_dataset.py: This is where the data preprocessing happens.
+
+- fairseq/data/masking.py: All the masking schemes are defined here. These are called from the dataset files above.
+
+- fairseq/criterions -- span_bert_loss: The losses are defined here. Make sure --no_-nsp is set to true when using the no_-nsp losses
+
+- fairseq/models/pair_bert.py: Transformer model.

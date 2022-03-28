@@ -1,0 +1,10 @@
+data/
+database.ini
+model/
+model_output
+.ipynb_checkpoints/
+__pycache__
+tokenizer/
+train_data/
+checkpoint_dir/
+.DS_Store
